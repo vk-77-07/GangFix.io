@@ -1,0 +1,36 @@
+.bg-img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nav-link{
+    transition: all 0.2s;
+}
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+.card{
+    transition: all 0.2s;
+}
+.card:hover{
+    transform:scale(1.10);
+}
+#btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+ #btn:hover {
+    background-color: #000000;
+    color: white;
+  }
